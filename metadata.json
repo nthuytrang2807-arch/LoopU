@@ -1,0 +1,6 @@
+{
+  "name": "Loop.sv.vn",
+  "description": "Nền tảng thương mại điện tử và trao đổi đồ dùng học tập, công nghệ, nội thất ký túc xá dành riêng cho sinh viên Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

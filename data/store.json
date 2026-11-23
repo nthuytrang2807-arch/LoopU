@@ -1,0 +1,338 @@
+{
+  "adminCredentialHash": null,
+  "users": [
+    {
+      "id": "stu-minhanh",
+      "email": "minhanh.bk@sv.hust.edu.vn",
+      "passwordHash": null,
+      "fullName": "Trần Minh Anh",
+      "university": "ĐH Bách Khoa Hà Nội",
+      "studentId": "20235012",
+      "dormAddress": "KTX B9, Hai Bà Trưng, Hà Nội",
+      "bio": "Sinh viên năm 3 Khoa học Máy tính, chuyên nhượng lại thiết bị bàn học và giáo trình.",
+      "role": "student",
+      "createdAt": "2026-11-15T10:00:00.000Z"
+    },
+    {
+      "id": "stu-thaovy",
+      "email": "thaovy.neu@st.neu.edu.vn",
+      "passwordHash": null,
+      "fullName": "Nguyễn Thảo Vy",
+      "university": "ĐH Kinh Tế Quốc Dân",
+      "studentId": "11234089",
+      "dormAddress": "KTX Khu A, Đồng Tâm, Hà Nội",
+      "bio": "Chia sẻ bộ sách chuyên ngành Kinh tế, Ngoại thương & dụng cụ ghi chép gọn gàng.",
+      "role": "student",
+      "createdAt": "2026-11-18T14:15:00.000Z"
+    },
+    {
+      "id": "stu-hoangnam",
+      "email": "hoangnam.vnu@vnu.edu.vn",
+      "passwordHash": null,
+      "fullName": "Lê Hoàng Nam",
+      "university": "ĐH Quốc Gia TP.HCM",
+      "studentId": "22520914",
+      "dormAddress": "KTX Khu B, ĐHQG Thủ Đức",
+      "bio": "Thanh lý xe đạp đi học và phụ kiện công nghệ bảo quản kỹ.",
+      "role": "student",
+      "createdAt": "2026-11-20T09:30:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prd-keyboard-75",
+      "title": "Bàn phím cơ không dây 75% Keycap PBT Xanh Rừng",
+      "titleEn": "75% Wireless Mechanical Keyboard — Forest PBT",
+      "category": "tech",
+      "condition": "like_new",
+      "price": 650000,
+      "originalPrice": 1200000,
+      "stock": 2,
+      "campus": "KTX Bách Khoa — Hà Nội",
+      "sellerId": "stu-minhanh",
+      "sellerName": "Trần Minh Anh",
+      "sellerUniversity": "ĐH Bách Khoa Hà Nội",
+      "rating": 4.9,
+      "reviewCount": 2,
+      "imageUrl": "/src/assets/images/product_mechanical_keyboard_1795325813109.jpg",
+      "description": "Bàn phím cơ layout 75% nhỏ gọn mang lên thư viện, switch linear êm ái không gây ồn, kết nối 3 chế độ Bluetooth/2.4GHz/USB-C kèm cáp xoắn.",
+      "descriptionEn": "Compact 75% mechanical keyboard suited for library study, quiet linear switches, tri-mode Bluetooth/2.4GHz/USB-C with coiled cable.",
+      "featured": true,
+      "createdAt": "2026-11-20T09:30:00.000Z"
+    },
+    {
+      "id": "prd-textbook-set",
+      "title": "Combo 4 giáo trình Kinh Tế & Nhập Môn Bìa Cứng + Sổ Tay",
+      "titleEn": "4-Volume Hardcover Economics & Sociology Textbook Set",
+      "category": "textbooks",
+      "condition": "like_new",
+      "price": 130000,
+      "originalPrice": 340000,
+      "stock": 4,
+      "campus": "Khuôn viên Kinh Tế Quốc Dân",
+      "sellerId": "stu-thaovy",
+      "sellerName": "Nguyễn Thảo Vy",
+      "sellerUniversity": "ĐH Kinh Tế Quốc Dân",
+      "rating": 5,
+      "reviewCount": 1,
+      "imageUrl": "/src/assets/images/product_textbooks_bundle_1795325812367.jpg",
+      "description": "Trọn bộ 4 cuốn giáo trình gốc giấy dày không quăn mép, không viết mực lên trang, tặng kèm sổ tay vải linen chưa sử dụng.",
+      "descriptionEn": "Complete 4-volume hardcover university textbook bundle with clean unmarked pages and an unused linen-bound notebook.",
+      "featured": true,
+      "createdAt": "2026-11-18T14:15:00.000Z"
+    },
+    {
+      "id": "prd-laptop-stand",
+      "title": "Giá đỡ Laptop Nhôm Nguyên Khối Anodized Công Thái Học",
+      "titleEn": "Brushed Anodized Aluminum Ergonomic Laptop Stand",
+      "category": "stationery",
+      "condition": "new",
+      "price": 99000,
+      "originalPrice": 175000,
+      "stock": 5,
+      "campus": "KTX Bách Khoa — Hà Nội",
+      "sellerId": "stu-minhanh",
+      "sellerName": "Trần Minh Anh",
+      "sellerUniversity": "ĐH Bách Khoa Hà Nội",
+      "rating": 4.8,
+      "reviewCount": 1,
+      "imageUrl": "/src/assets/images/product_macbook_stand_1795325812839.jpg",
+      "description": "Giá đỡ nhôm nguyên khối nâng tầm mắt chống mỏi cổ khi làm đồ án dài giờ. Đệm silicon chống trượt phù hợp laptop 13–16 inch.",
+      "descriptionEn": "Solid brushed aluminum stand designed to elevate laptops 13–16 inch for ergonomic posture during long study sessions.",
+      "featured": true,
+      "createdAt": "2026-11-18T14:15:00.000Z"
+    },
+    {
+      "id": "prd-headphones-anc",
+      "title": "Tai nghe chụp tai chống ồn chủ động Studio Matte Black",
+      "titleEn": "Matte Black Active Noise-Canceling Over-Ear Headphones",
+      "category": "tech",
+      "condition": "like_new",
+      "price": 1450000,
+      "originalPrice": 2990000,
+      "stock": 1,
+      "campus": "KTX Khu B — ĐHQG TP.HCM",
+      "sellerId": "stu-hoangnam",
+      "sellerName": "Lê Hoàng Nam",
+      "sellerUniversity": "ĐH Quốc Gia TP.HCM",
+      "rating": 4.9,
+      "reviewCount": 1,
+      "imageUrl": "/src/assets/images/product_headphones_desk_1795325812059.jpg",
+      "description": "Chống ồn chủ động lý tưởng khi ôn thi ở quán cà phê hoặc phòng KTX đông người. Pin 30 giờ, đệm tai da mềm như mới.",
+      "descriptionEn": "Active noise cancellation ideal for exam prep in busy dorms or cafes. 30-hour battery life and clean ear cushions.",
+      "featured": false,
+      "createdAt": "2026-11-15T10:00:00.000Z"
+    },
+    {
+      "id": "prd-dorm-lamp",
+      "title": "Đèn bàn LED chống cận tối giản + Khay gỗ sồi KTX",
+      "titleEn": "Minimalist Forest Green LED Desk Lamp + Oak Organizer",
+      "category": "dorm",
+      "condition": "like_new",
+      "price": 179999,
+      "originalPrice": 390000,
+      "stock": 3,
+      "campus": "Khuôn viên Kinh Tế Quốc Dân",
+      "sellerId": "stu-thaovy",
+      "sellerName": "Nguyễn Thảo Vy",
+      "sellerUniversity": "ĐH Kinh Tế Quốc Dân",
+      "rating": 4.7,
+      "reviewCount": 1,
+      "imageUrl": "/src/assets/images/product_dorm_lamp_1795325813040.jpg",
+      "description": "Ánh sáng vàng ấm dịu mắt 4000K không nhấp nháy, cổ đèn linh hoạt kèm khay gỗ sồi đựng bút và cốc gọn gàng cho bàn học KTX.",
+      "descriptionEn": "Flicker-free 4000K warm LED architectural lamp with flexible neck and solid oak desk organizer tray.",
+      "featured": false,
+      "createdAt": "2026-11-15T10:00:00.000Z"
+    },
+    {
+      "id": "prd-campus-bike",
+      "title": "Tủ lạnh 2 ngăn Funiki 126 lít FR-135CD.1",
+      "titleEn": "Funiki 126L 2-Door Dorm Refrigerator FR-135CD.1",
+      "category": "dorm",
+      "condition": "good",
+      "price": 1400000,
+      "originalPrice": 2970000,
+      "stock": 1,
+      "campus": "KTX Khu B — ĐHQG TP.HCM",
+      "sellerId": "stu-hoangnam",
+      "sellerName": "Lê Hoàng Nam",
+      "sellerUniversity": "ĐH Quốc Gia TP.HCM",
+      "rating": 4.8,
+      "reviewCount": 1,
+      "imageUrl": "/src/assets/images/product_dorm_fridge_1795328164451.jpg",
+      "description": "Tủ lạnh 2 ngăn dung tích 126 lít vận hành êm, làm lạnh nhanh và tiết kiệm điện, kích thước gọn gàng phù hợp phòng trọ và ký túc xá sinh viên.",
+      "descriptionEn": "Compact 126L two-door refrigerator with quiet operation, fast cooling, and energy-saving performance ideal for student rooms.",
+      "featured": true,
+      "createdAt": "2026-11-20T09:30:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prd-keyboard-75",
+      "authorName": "Phạm Đức Mạnh",
+      "authorUniversity": "ĐH Bách Khoa Hà Nội",
+      "rating": 5,
+      "comment": "Gõ rất êm, mang lên thư viện Tạ Quang Bửu không làm phiền bàn bên. Chủ cũ giữ phím cực sạch.",
+      "createdAt": "2026-11-18T14:15:00.000Z"
+    },
+    {
+      "id": "rev-2",
+      "productId": "prd-keyboard-75",
+      "authorName": "Vũ Ngọc Hà",
+      "authorUniversity": "ĐH Xây Dựng",
+      "rating": 5,
+      "comment": "Giao tận cổng KTX trong buổi chiều, đủ phụ kiện như mô tả.",
+      "createdAt": "2026-11-20T09:30:00.000Z"
+    },
+    {
+      "id": "rev-3",
+      "productId": "prd-textbook-set",
+      "authorName": "Hoàng Gia Linh",
+      "authorUniversity": "ĐH Ngoại Thương",
+      "rating": 5,
+      "comment": "Sách mới tinh không bị gạch bút highlight, tiết kiệm được hơn nửa tiền mua mới.",
+      "createdAt": "2026-11-20T09:30:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1041",
+      "orderCode": "LP-1041",
+      "userId": null,
+      "customerName": "Đỗ Quang Huy",
+      "customerPhone": "0912345678",
+      "customerUniversity": "ĐH Bách Khoa Hà Nội",
+      "deliveryAddress": "Phòng 304, KTX B6, Hai Bà Trưng, Hà Nội",
+      "paymentMethod": "vietqr",
+      "note": "Giao sau 17h chiều giúp mình nhé.",
+      "items": [
+        {
+          "productId": "prd-keyboard-75",
+          "title": "Bàn phím cơ không dây 75% Keycap PBT Xanh Rừng",
+          "titleEn": "75% Wireless Mechanical Keyboard — Forest PBT",
+          "price": 890000,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/product_mechanical_keyboard_1795325813109.jpg",
+          "campus": "KTX Bách Khoa — Hà Nội"
+        }
+      ],
+      "subtotal": 890000,
+      "shippingFee": 0,
+      "totalAmount": 890000,
+      "status": "completed",
+      "createdAt": "2026-11-18T14:15:00.000Z",
+      "updatedAt": "2026-11-20T09:30:00.000Z"
+    },
+    {
+      "id": "ord-1042",
+      "orderCode": "LP-1042",
+      "userId": null,
+      "customerName": "Nguyễn Minh Thư",
+      "customerPhone": "0987654321",
+      "customerUniversity": "ĐH Kinh Tế Quốc Dân",
+      "deliveryAddress": "Sảnh Tòa A2, ĐH Kinh Tế Quốc Dân",
+      "paymentMethod": "cod",
+      "note": "Gọi trước 10 phút khi tới sảnh.",
+      "items": [
+        {
+          "productId": "prd-textbook-set",
+          "title": "Combo 4 giáo trình Kinh Tế & Nhập Môn Bìa Cứng + Sổ Tay",
+          "titleEn": "4-Volume Hardcover Economics & Sociology Textbook Set",
+          "price": 260000,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/product_textbooks_bundle_1795325812367.jpg",
+          "campus": "Khuôn viên Kinh Tế Quốc Dân"
+        },
+        {
+          "productId": "prd-dorm-lamp",
+          "title": "Đèn bàn LED chống cận tối giản + Khay gỗ sồi KTX",
+          "titleEn": "Minimalist Forest Green LED Desk Lamp + Oak Organizer",
+          "price": 320000,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/product_dorm_lamp_1795325813040.jpg",
+          "campus": "Khuôn viên Kinh Tế Quốc Dân"
+        }
+      ],
+      "subtotal": 580000,
+      "shippingFee": 0,
+      "totalAmount": 580000,
+      "status": "shipping",
+      "createdAt": "2026-11-20T09:30:00.000Z",
+      "updatedAt": "2026-11-20T09:30:00.000Z"
+    },
+    {
+      "id": "ord-1043",
+      "orderCode": "LP-1043",
+      "userId": null,
+      "customerName": "Trần Bảo Long",
+      "customerPhone": "0909887766",
+      "customerUniversity": "ĐH Quốc Gia TP.HCM",
+      "deliveryAddress": "Nhà C4, KTX Khu B ĐHQG",
+      "paymentMethod": "cod",
+      "note": "Kiểm tra kỹ phanh xe trước khi giao.",
+      "items": [
+        {
+          "productId": "prd-campus-bike",
+          "title": "Xe đạp đi học khung thép Xanh Rừng + Giá chở trước",
+          "titleEn": "Matte Forest Green Campus Commuter Bike with Front Rack",
+          "price": 2150000,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/product_campus_bike_1795325812687.jpg",
+          "campus": "KTX Khu B — ĐHQG TP.HCM"
+        }
+      ],
+      "subtotal": 2150000,
+      "shippingFee": 0,
+      "totalAmount": 2150000,
+      "status": "pending",
+      "createdAt": "2026-11-20T09:30:00.000Z",
+      "updatedAt": "2026-11-20T09:30:00.000Z"
+    }
+  ],
+  "supportMessages": [
+    {
+      "id": "sup-1",
+      "name": "Lê Thanh Tú",
+      "email": "thanhtu@sv.hcmut.edu.vn",
+      "topic": "Hợp tác điểm thu gom sách KTX",
+      "message": "CLB Sách Bách Khoa muốn đề xuất mở điểm ký gửi giáo trình cuối kỳ tại KTX Khu A.",
+      "status": "open",
+      "createdAt": "2026-11-18T14:15:00.000Z"
+    }
+  ],
+  "greenCredit": {
+    "balance": 120,
+    "lastCheckinDate": null,
+    "transactions": [
+      {
+        "id": "gc-seed-1",
+        "type": "earn",
+        "points": 40,
+        "title": "Đăng bán tái sử dụng: Bàn phím cơ không dây 75%",
+        "titleEn": "Listed circular item: 75% Wireless Mechanical Keyboard",
+        "category": "listing",
+        "createdAt": "2026-11-23T03:46:43.198Z"
+      },
+      {
+        "id": "gc-seed-2",
+        "type": "earn",
+        "points": 50,
+        "title": "Mua sắm tuần hoàn đơn LP-1042 (2 món)",
+        "titleEn": "Circular order LP-1042 (2 items)",
+        "category": "order",
+        "createdAt": "2026-11-23T03:46:43.198Z"
+      },
+      {
+        "id": "gc-seed-3",
+        "type": "earn",
+        "points": 30,
+        "title": "Hoàn tất nhận hàng tuần hoàn LP-1041",
+        "titleEn": "Completed circular delivery LP-1041",
+        "category": "order",
+        "createdAt": "2026-11-23T03:46:43.198Z"
+      }
+    ],
+    "vouchers": []
+  }
+}
